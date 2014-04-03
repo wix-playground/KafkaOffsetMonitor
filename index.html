@@ -57,11 +57,11 @@
 <h1>
 <a name="running-it" class="anchor" href="#running-it"><span class="octicon octicon-link"></span></a>Running It</h1>
 
-<p>If you do not want to build it manually, just download the <a href="http://quantifind.github.io/KafkaOffsetMonitor/dist/KafkaOffsetMonitor-assembly-0.1.0-SNAPSHOT.jar">current jar</a>.</p>
+<p>If you do not want to build it manually, just download the <a href="https://github.com/quantifind/KafkaOffsetMonitor/releases/latest">current jar</a>.</p>
 
 <p>This is a small webapp, you can run it locally or on a server, as long as you have access to the ZooKeeper nodes controlling kafka.</p>
 
-<pre><code>java -cp KafkaOffsetMonitor-assembly-0.1.0-SNAPSHOT.jar \
+<pre><code>java -cp KafkaOffsetMonitor-assembly-0.2.0.jar \
      com.quantifind.kafka.offsetapp.OffsetGetterWeb \
      --zk zk-server1,zk-server2 \
      --port 8080 \
